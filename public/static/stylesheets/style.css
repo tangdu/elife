@@ -1,0 +1,37 @@
+body{
+    background: #fff url("../images/bg_a.png")
+}
+body > .container {
+    padding: 60px 15px 0;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+#footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.shortcut{
+    margin: 0px;
+    padding: 0px;
+    top:150px;
+    left: -60px;
+    position: absolute;;
+}
+.shortcut div{
+    width:100px;
+    margin: 2px;
+    float: left;
+    clear: both;
+    border: 1px #101010 solid;
+}
+.mywelll{
+
+}

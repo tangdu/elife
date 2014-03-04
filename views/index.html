@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <title>首页</title>
+    <%- include header.html %>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">MySelf</a>
+        </div>
+
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="/">首页</a>
+                </li>
+                <li>
+                    <a href="/life">生活</a>
+                </li>
+                <li>
+                    <a href="/travel">旅行</a>
+                </li>
+                <li>
+                    <a href="/work">工作</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=locals.user.username%> <b
+                            class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/issue_blog"><i class="glyphicon glyphicon-user"></i> 个人资料</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-lock"></i> 锁屏</a></li>
+                        <li><a href="/logout"><i class="glyphicon glyphicon-off"></i> 注销</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="shortcut">
+    <div class="btn btn-primary">生活颜色</div>
+    <div class="btn btn-primary">旅行天地</div>
+    <div class="btn btn-primary">工作笔记</div>
+</div>
+<%- include footer.html %>
+<script type="text/javascript">
+    $(function(){
+        $(".shortcut div").bind('mouseover',function(e){
+            $(this).animate({
+                opacity: '+0.4',
+                'margin-left': '+=60'
+            }, 500)
+        }).bind('mouseout',function(e){
+            $(this).animate({
+                'margin-left': '-=60'
+            }, 500)
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,969 @@
+[Sun Nov 24 2013 14:32:46 GMT+0800 (中国标准时间)] Error: ENOENT, no such file or directory 'F:\workspace\nodejsspace\elife\views\footesr.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.index (F:\workspace\nodejsspace\elife\routes\index.js:7:7)
+[Sun Nov 24 2013 14:42:45 GMT+0800 (中国标准时间)] Error: Failed to lookup view "index"
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.index (F:\workspace\nodejsspace\elife\routes\index.js:7:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.methodOverride [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\methodOverride.js:48:5)
+[Sun Nov 24 2013 14:45:12 GMT+0800 (中国标准时间)] Error: ENOENT, no such file or directory 'F:\workspace\nodejsspace\elife\views\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.index (F:\workspace\nodejsspace\elife\routes\index.js:7:7)
+[Sun Nov 24 2013 14:45:46 GMT+0800 (中国标准时间)] Error: ENOENT, no such file or directory 'F:\workspace\nodejsspace\elife\views\header.ejs'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.index (F:\workspace\nodejsspace\elife\routes\index.js:7:7)
+[Sun Nov 24 2013 14:55:02 GMT+0800 (中国标准时间)] Error: Failed to lookup view "index"
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.index (F:\workspace\nodejsspace\elife\routes\index.js:7:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.cookieParser [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\cookieParser.js:60:5)
+[Sun Nov 24 2013 14:55:24 GMT+0800 (中国标准时间)] Error: Failed to lookup view "index"
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.index (F:\workspace\nodejsspace\elife\routes\index.js:7:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.cookieParser [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\cookieParser.js:60:5)
+[Sun Nov 24 2013 14:55:26 GMT+0800 (中国标准时间)] Error: Failed to lookup view "index"
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.index (F:\workspace\nodejsspace\elife\routes\index.js:7:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.cookieParser [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\cookieParser.js:60:5)
+[Sun Nov 24 2013 14:56:05 GMT+0800 (中国标准时间)] Error: Failed to lookup view "index"
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.index (F:\workspace\nodejsspace\elife\routes\index.js:7:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.cookieParser [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\cookieParser.js:60:5)
+[Sun Nov 24 2013 14:56:13 GMT+0800 (中国标准时间)] Error: Failed to lookup view "404"
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at Object.app.use.res.render.error [as handle] (F:\workspace\nodejsspace\elife\app.js:35:9)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at resume (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:65:7)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:80:37)
+    at SendStream.EventEmitter.emit (events.js:95:17)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:147:51)
+    at SendStream.onStatError (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:248:48)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:320:26
+[Sun Nov 24 2013 14:56:16 GMT+0800 (中国标准时间)] Error: Failed to lookup view "404"
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at Object.app.use.res.render.error [as handle] (F:\workspace\nodejsspace\elife\app.js:35:9)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at resume (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:65:7)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:80:37)
+    at SendStream.EventEmitter.emit (events.js:95:17)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:147:51)
+    at SendStream.onStatError (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:248:48)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:320:26
+[Tue Nov 26 2013 22:14:06 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\login.html:4
+    2| <html lang='zh-CN'>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <%- include header.html %>
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:29:103)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.login (F:\workspace\nodejsspace\elife\routes\user.js:11:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Tue Nov 26 2013 22:14:49 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\login.html:4
+    2| <html lang='zh-CN'>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <%- include header.html %>
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:29:103)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.login (F:\workspace\nodejsspace\elife\routes\user.js:11:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Tue Nov 26 2013 22:14:50 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\login.html:4
+    2| <html lang='zh-CN'>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <%- include header.html %>
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:29:103)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.login (F:\workspace\nodejsspace\elife\routes\user.js:11:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Tue Nov 26 2013 22:14:50 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\login.html:4
+    2| <html lang='zh-CN'>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <%- include header.html %>
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:29:103)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.login (F:\workspace\nodejsspace\elife\routes\user.js:11:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Tue Nov 26 2013 22:14:50 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\login.html:4
+    2| <html lang='zh-CN'>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <%- include header.html %>
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:29:103)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.login (F:\workspace\nodejsspace\elife\routes\user.js:11:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Tue Nov 26 2013 22:14:50 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\login.html:4
+    2| <html lang='zh-CN'>
+    3|   <head>
+ >> 4|     <title><%= title %></title>
+    5|     <%- include header.html %>
+    6|   </head>
+    7|   <body>
+
+title is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:29:103)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at exports.login (F:\workspace\nodejsspace\elife\routes\user.js:11:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 09:38:54 GMT+0800 (中国标准时间)] TypeError: Cannot call method 'escape' of undefined
+    at Object.define.th.where (F:\workspace\nodejsspace\elife\db.js:195:53)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:13:14
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+[Mon Mar 03 2014 09:48:58 GMT+0800 (中国标准时间)] Error: `secret` option required for sessions
+    at Object.session [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:230:24)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.cookieParser [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\cookieParser.js:60:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.methodOverride [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\methodOverride.js:48:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.urlencoded [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\urlencoded.js:49:37)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.json [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\json.js:51:37)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+[Mon Mar 03 2014 09:48:58 GMT+0800 (中国标准时间)] Error: `secret` option required for sessions
+    at Object.session [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:230:24)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.cookieParser [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\cookieParser.js:60:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.methodOverride [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\methodOverride.js:48:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.urlencoded [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\urlencoded.js:49:37)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.json [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\json.js:51:37)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+[Mon Mar 03 2014 09:48:58 GMT+0800 (中国标准时间)] Error: `secret` option required for sessions
+    at Object.session [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:230:24)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.cookieParser [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\cookieParser.js:60:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.methodOverride [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\methodOverride.js:48:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.urlencoded [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\urlencoded.js:49:37)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.json [as handle] (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\json.js:51:37)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+[Mon Mar 03 2014 09:55:11 GMT+0800 (中国标准时间)] ReferenceError: next is not defined
+    at F:\workspace\nodejsspace\elife\apps\controller\index.js:8:9
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:335:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:55:7
+[Mon Mar 03 2014 09:55:11 GMT+0800 (中国标准时间)] ReferenceError: next is not defined
+    at F:\workspace\nodejsspace\elife\apps\controller\index.js:8:9
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+[Mon Mar 03 2014 09:55:11 GMT+0800 (中国标准时间)] ReferenceError: next is not defined
+    at F:\workspace\nodejsspace\elife\apps\controller\index.js:8:9
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+[Mon Mar 03 2014 09:55:12 GMT+0800 (中国标准时间)] ReferenceError: next is not defined
+    at F:\workspace\nodejsspace\elife\apps\controller\index.js:8:9
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+[Mon Mar 03 2014 10:02:39 GMT+0800 (中国标准时间)] TypeError: Object /(.png$)|(.jpg$)|(.css$)/gi has no method 'text'
+    at module.exports.app.get.res.render.title (F:\workspace\nodejsspace\elife\apps\controller\index.js:9:23)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:335:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:55:7
+[Mon Mar 03 2014 10:02:39 GMT+0800 (中国标准时间)] TypeError: Object /(.png$)|(.jpg$)|(.css$)/gi has no method 'text'
+    at module.exports.app.get.res.render.title (F:\workspace\nodejsspace\elife\apps\controller\index.js:9:23)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+[Mon Mar 03 2014 10:02:39 GMT+0800 (中国标准时间)] TypeError: Object /(.png$)|(.jpg$)|(.css$)/gi has no method 'text'
+    at module.exports.app.get.res.render.title (F:\workspace\nodejsspace\elife\apps\controller\index.js:9:23)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+[Mon Mar 03 2014 10:02:39 GMT+0800 (中国标准时间)] TypeError: Object /(.png$)|(.jpg$)|(.css$)/gi has no method 'text'
+    at module.exports.app.get.res.render.title (F:\workspace\nodejsspace\elife\apps\controller\index.js:9:23)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+[Mon Mar 03 2014 10:40:36 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\signin.html:30
+    28|   <body>
+    29|   	<div class="container">
+ >> 30|         <% if(message){ %>
+    31|             <div class="alert alert-error"><%=message%></div>
+    32|         <% } %>
+    33|         <form  class="form-horizontal form-signin" role="form" action="/login" method="post">
+
+message is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:685)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1369)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 10:40:36 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\signin.html:30
+    28|   <body>
+    29|   	<div class="container">
+ >> 30|         <% if(message){ %>
+    31|             <div class="alert alert-error"><%=message%></div>
+    32|         <% } %>
+    33|         <form  class="form-horizontal form-signin" role="form" action="/login" method="post">
+
+message is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:685)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1369)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 10:41:14 GMT+0800 (中国标准时间)] SyntaxError: Unexpected token ) in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:14 GMT+0800 (中国标准时间)] SyntaxError: Unexpected token ) in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:25 GMT+0800 (中国标准时间)] SyntaxError: Unexpected identifier in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:25 GMT+0800 (中国标准时间)] SyntaxError: Unexpected identifier in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:31 GMT+0800 (中国标准时间)] SyntaxError: Unexpected identifier in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:31 GMT+0800 (中国标准时间)] SyntaxError: Unexpected identifier in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:32 GMT+0800 (中国标准时间)] SyntaxError: Unexpected identifier in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:32 GMT+0800 (中国标准时间)] SyntaxError: Unexpected identifier in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:33 GMT+0800 (中国标准时间)] SyntaxError: Unexpected identifier in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:33 GMT+0800 (中国标准时间)] SyntaxError: Unexpected identifier in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:40 GMT+0800 (中国标准时间)] SyntaxError: Unexpected token ! in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:40 GMT+0800 (中国标准时间)] SyntaxError: Unexpected token ! in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:45 GMT+0800 (中国标准时间)] SyntaxError: Unexpected identifier in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 10:41:45 GMT+0800 (中国标准时间)] SyntaxError: Unexpected identifier in "F:\\workspace\\nodejsspace\\elife\\views\\signin.html"
+    at Object.Function (<anonymous>)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 11:05:49 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:40:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:335:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:55:7
+    at process._tickCallback (node.js:415:13)
+[Mon Mar 03 2014 11:05:49 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:40:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+    at process._tickCallback (node.js:415:13)
+[Mon Mar 03 2014 11:05:49 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:40:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+    at process._tickCallback (node.js:415:13)
+[Mon Mar 03 2014 11:05:49 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:40:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+    at process._tickCallback (node.js:415:13)
+[Mon Mar 03 2014 11:06:29 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:40:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:110:24)
+    at nextRoute (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:167:11)
+    at module.exports.app.get.res.render.title (F:\workspace\nodejsspace\elife\apps\controller\index.js:10:13)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 11:06:29 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:40:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:110:24)
+    at nextRoute (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:167:11)
+    at module.exports.app.get.res.render.title (F:\workspace\nodejsspace\elife\apps\controller\index.js:10:13)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+[Mon Mar 03 2014 11:07:00 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:40:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:335:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:55:7
+    at process._tickCallback (node.js:415:13)
+[Mon Mar 03 2014 11:07:00 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:40:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+    at process._tickCallback (node.js:415:13)
+[Mon Mar 03 2014 11:07:00 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:40:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+    at process._tickCallback (node.js:415:13)
+[Mon Mar 03 2014 11:07:00 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:40:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at store.get.next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:318:9)
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session.js:342:9
+    at F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\session\memory.js:50:9
+    at process._tickCallback (node.js:415:13)
+[Mon Mar 03 2014 11:09:26 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:42:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at resume (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:65:7)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:80:37)
+    at SendStream.EventEmitter.emit (events.js:95:17)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:147:51)
+    at SendStream.onStatError (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:248:48)
+    at SendStream.pipe (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:320:26)
+[Mon Mar 03 2014 11:10:10 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:42:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at resume (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:65:7)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:80:37)
+    at SendStream.EventEmitter.emit (events.js:95:17)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:147:51)
+    at SendStream.onStatError (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:248:48)
+    at SendStream.pipe (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:320:26)
+[Mon Mar 03 2014 11:11:19 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:42:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at resume (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:65:7)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:80:37)
+    at SendStream.EventEmitter.emit (events.js:95:17)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:147:51)
+    at SendStream.onStatError (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:248:48)
+    at SendStream.pipe (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:320:26)
+[Mon Mar 03 2014 11:11:43 GMT+0800 (中国标准时间)] TypeError: Object #<ServerResponse> has no method 'flush'
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:42:23)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at resume (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:65:7)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:80:37)
+    at SendStream.EventEmitter.emit (events.js:95:17)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:147:51)
+    at SendStream.onStatError (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:248:48)
+    at SendStream.pipe (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:320:26)
+[Mon Mar 03 2014 11:26:31 GMT+0800 (中国标准时间)] ReferenceError: req is not defined
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:43:19)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.module.exports [as handle] (F:\workspace\nodejsspace\elife\node_modules\connect-flash\lib\flash.js:21:5)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at resume (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:65:7)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\middleware\static.js:80:37)
+    at SendStream.EventEmitter.emit (events.js:95:17)
+    at SendStream.error (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:147:51)
+    at SendStream.onStatError (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:248:48)
+    at SendStream.pipe (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\send\lib\send.js:320:26)
+[Mon Mar 03 2014 12:27:21 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\signin.html:30
+    28|   <body>
+    29|   	<div class="container">
+ >> 30|         <% if(res.locals.message) { %>
+    31|             <div class="alert alert-error"><%=res.locals.message%></div>
+    32|         <% } %>
+    33|         <form  class="form-horizontal form-signin" role="form" action="/login" method="post">
+
+res is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:685)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1392)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 12:29:01 GMT+0800 (中国标准时间)] TypeError: F:\workspace\nodejsspace\elife\views\signin.html:33
+    31|             <div class="alert alert-error"><%=locals.message%></div>
+    32|         <% } %>
+ >> 33|         <div class="alert alert-error"><%=locals(message)%></div>
+    34|         <div class="alert alert-error"><%=message%></div>
+    35|         <form  class="form-horizontal form-signin" role="form" action="/login" method="post">
+    36|             <h2 class="form-signin-heading">Login in</h2>
+
+object is not a function
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:932)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1570)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 12:42:18 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\index.html:44
+    42| 	      <ul class="nav navbar-nav navbar-right">
+    43|           <li class="dropdown">
+ >> 44|             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=username%> <b class="caret"></b></a>
+    45|             <ul class="dropdown-menu">
+    46|               <li><a href="#"><i class="glyphicon glyphicon-user"></i> 我的信息</a></li>
+    47|               <li><a href="#"><i class="glyphicon glyphicon-calendar"></i> 我的日历</a></li>
+
+username is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1443)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at module.exports (F:\workspace\nodejsspace\elife\apps\controller\index.js:19:13)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 12:45:51 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\index.html:44
+    42| 	      <ul class="nav navbar-nav navbar-right">
+    43|           <li class="dropdown">
+ >> 44|             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=session.username%> <b class="caret"></b></a>
+    45|             <ul class="dropdown-menu">
+    46|               <li><a href="#"><i class="glyphicon glyphicon-user"></i> 我的信息</a></li>
+    47|               <li><a href="#"><i class="glyphicon glyphicon-calendar"></i> 我的日历</a></li>
+
+session is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1443)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at module.exports (F:\workspace\nodejsspace\elife\apps\controller\index.js:19:13)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 12:46:28 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\index.html:44
+    42| 	      <ul class="nav navbar-nav navbar-right">
+    43|           <li class="dropdown">
+ >> 44|             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=session.username%> <b class="caret"></b></a>
+    45|             <ul class="dropdown-menu">
+    46|               <li><a href="#"><i class="glyphicon glyphicon-user"></i> 我的信息</a></li>
+    47|               <li><a href="#"><i class="glyphicon glyphicon-calendar"></i> 我的日历</a></li>
+
+session is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1443)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at module.exports (F:\workspace\nodejsspace\elife\apps\controller\index.js:19:13)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 12:46:42 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\index.html:44
+    42| 	      <ul class="nav navbar-nav navbar-right">
+    43|           <li class="dropdown">
+ >> 44|             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=session.username%> <b class="caret"></b></a>
+    45|             <ul class="dropdown-menu">
+    46|               <li><a href="#"><i class="glyphicon glyphicon-user"></i> 我的信息</a></li>
+    47|               <li><a href="#"><i class="glyphicon glyphicon-calendar"></i> 我的日历</a></li>
+
+session is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1443)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:21:21
+    at Query.<anonymous> (F:\workspace\nodejsspace\elife\db.js:208:13)
+[Mon Mar 03 2014 13:03:20 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\index.html:44
+    42| 	      <ul class="nav navbar-nav navbar-right">
+    43|           <li class="dropdown">
+ >> 44|             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=session.username%> <b class="caret"></b></a>
+    45|             <ul class="dropdown-menu">
+    46|               <li><a href="#"><i class="glyphicon glyphicon-user"></i> 我的信息</a></li>
+    47|               <li><a href="#"><i class="glyphicon glyphicon-calendar"></i> 我的日历</a></li>
+
+session is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1443)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:33:55)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:20:21
+    at Query.<anonymous> (F:\workspace\nodejsspace\elife\db.js:208:13)
+[Mon Mar 03 2014 13:05:27 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\signin.html:32
+    30| 
+    31|         <form  class="form-horizontal form-signin" role="form" action="/login" method="post">
+ >> 32|             <% if(message) { %>
+    33|             <div class="alert alert-warning">
+    34|                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    35|                 <strong>提示:</strong><%=message%>
+
+message is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:793)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1680)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 13:06:11 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\signin.html:32
+    30| 
+    31|         <form  class="form-horizontal form-signin" role="form" action="/login" method="post">
+ >> 32|             <% if(message) { %>
+    33|             <div class="alert alert-warning">
+    34|                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    35|                 <strong>提示:</strong><%=message%>
+
+message is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:793)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1680)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 13:06:47 GMT+0800 (中国标准时间)] ReferenceError: F:\workspace\nodejsspace\elife\views\signin.html:32
+    30| 
+    31|         <form  class="form-horizontal form-signin" role="form" action="/login" method="post">
+ >> 32|             <% if(message) { %>
+    33|             <div class="alert alert-warning">
+    34|                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    35|                 <strong>提示:</strong><%=message%>
+
+message is not defined
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:793)
+    at eval (eval at <anonymous> (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:237:14), <anonymous>:31:1680)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:250:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:288:13)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:801:7)
+    at F:\workspace\nodejsspace\elife\apps\controller\user.js:8:13
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+[Mon Mar 03 2014 14:59:35 GMT+0800 (中国标准时间)] TypeError: Object #<Object> has no method 'save'
+    at F:\workspace\nodejsspace\elife\apps\controller\article.js:10:16
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Domain.bind.b (domain.js:183:18)
+    at Domain.run (domain.js:123:23)
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:54:11)
+[Mon Mar 03 2014 15:03:53 GMT+0800 (中国标准时间)] TypeError: Object function v4(options, buf, offset) {
+    // Deprecated - 'format' argument, as supported in v1.2
+    var i = buf && offset || 0;
+
+    if (typeof(options) == 'string') {
+      buf = options == 'binary' ? new BufferClass(16) : null;
+      options = null;
+    }
+    options = options || {};
+
+    var rnds = options.random || (options.rng || _rng)();
+
+    // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+    rnds[6] = (rnds[6] & 0x0f) | 0x40;
+    rnds[8] = (rnds[8] & 0x3f) | 0x80;
+
+    // Copy bytes to buffer, if provided
+    if (buf) {
+      for (var ii = 0; ii < 16; ii++) {
+        buf[i + ii] = rnds[ii];
+      }
+    }
+
+    return buf || unparse(rnds);
+  } has no method 'create'
+    at module.exports (F:\workspace\nodejsspace\elife\apps\controller\article.js:11:28)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:33:10)
+    at next (F:\workspace\nodejsspace\elife\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Domain.bind.b (domain.js:183:18)
+    at Domain.run (domain.js:123:23)
+    at Object.handle (F:\workspace\nodejsspace\elife\app.js:54:11)
+[Mon Mar 03 2014 21:37:48 GMT+0800 (中国标准时间)] TypeError: Cannot call method 'where' of undefined
+    at module.exports (F:\workspace\nodejsspace\elife\apps\controller\index.js:27:26)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at nextRoute (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:167:11)
+    at module.exports.app.get.params.type (F:\workspace\nodejsspace\elife\apps\controller\index.js:15:17)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+[Mon Mar 03 2014 21:39:12 GMT+0800 (中国标准时间)] TypeError: Cannot call method 'where' of undefined
+    at module.exports (F:\workspace\nodejsspace\elife\apps\controller\index.js:28:16)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+    at nextRoute (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:100:7)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:167:11)
+    at module.exports.app.get.params.type (F:\workspace\nodejsspace\elife\apps\controller\index.js:15:17)
+    at callbacks (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:164:37)
+    at param (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:138:11)
+    at pass (F:\workspace\nodejsspace\elife\node_modules\express\lib\router\index.js:145:5)
+[Mon Mar 03 2014 22:06:03 GMT+0800 (中国标准时间)] Error: ENOENT, no such file or directory 'F:\workspace\nodejsspace\elife\views\item.content'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:798:7)
+    at module.exports (F:\workspace\nodejsspace\elife\apps\controller\index.js:28:17)
+[Mon Mar 03 2014 22:06:52 GMT+0800 (中国标准时间)] Error: ENOENT, no such file or directory 'F:\workspace\nodejsspace\elife\views\item.content'
+    at Object.fs.openSync (fs.js:427:18)
+    at fs.readFileSync (fs.js:284:15)
+    at Object.exports.parse (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:159:19)
+    at exports.compile (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:224:15)
+    at Object.exports.render (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:284:10)
+    at View.exports.renderFile [as engine] (F:\workspace\nodejsspace\elife\node_modules\ejs\lib\ejs.js:318:20)
+    at View.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\application.js:504:10)
+    at ServerResponse.res.render (F:\workspace\nodejsspace\elife\node_modules\express\lib\response.js:798:7)
+    at module.exports (F:\workspace\nodejsspace\elife\apps\controller\index.js:28:17)
